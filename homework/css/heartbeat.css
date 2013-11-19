@@ -1,0 +1,98 @@
+#back{
+	margin-top:30px;
+	margin-left: 30px;
+	height: 625px;
+	width: 1000px;
+	background-image: url(../images/sky.png);
+}
+.white{
+	position: absolute;
+	top:190px;
+}
+.heart{
+	position: absolute;
+	top:230px;
+	left: 80px;
+}
+.colorful{
+	position: absolute;
+	top:310px;
+	left: 80px
+}
+/*导航部分代码*/
+.menu {
+	font-family: arial, sans-serif; 
+	height:30px;
+	position:absolute;
+	margin:0;
+	font-size:11px;
+	margin:50px 0;
+	top:200px;
+	left:500px;
+}
+.menu ul {
+	padding:0;
+	margin:0;
+	background: #63ade6;
+	list-style-type: none;
+	float: left;
+}
+.menu ul li{
+	float:left;
+	border-left:1px solid white;
+	width:115px;
+	height: 30px;
+}
+.menu ul li a {
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	height:30px;
+	line-height:30px;
+	color:black;
+	padding:0 0 0 5px;
+	width:100px;
+}
+/*第二级*/
+.menu ul li ul {
+	display: none;
+	margin:none;
+	padding:none;
+}
+.menu ul li ul li{
+	width: 115px;
+	height: 30px;
+	background-color: #63ade6;
+}
+
+.menu a:hover{
+	color: white;
+}
+.menu ul li:hover ul{
+	display:block;
+	width:50px;
+	height: 100px;
+	float: left;
+	height: 0px;
+}
+/*第三级*/
+.menu ul li ul li ul li {
+	display: none;
+	margin:none;
+	padding:none;
+	border:none;
+}
+
+.menu ul li ul li:hover li {
+	display: block;
+	width: 115px;
+	height: 30px;
+	left: 116px;
+	top: -30px;
+	position: relative;
+	background: #63ade6;
+	border-bottom:1px solid white;
+}
+
+
+
